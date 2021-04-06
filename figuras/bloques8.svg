@@ -14,7 +14,7 @@
    id="svg8"
    inkscape:version="1.0.2 (394de47547, 2021-03-26)"
    sodipodi:docname="bloques8.svg"
-   inkscape:export-filename="/home/gonzalo/Pictures/bloques8.png"
+   inkscape:export-filename="/home/gonzalo/Documents/materias/libro_ceaten/ceaten-2021/ceaten_2021/doc/modulo1/diagrama_bloques/fig8.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96">
   <defs
@@ -1050,11 +1050,10 @@
          y="18.600563"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';fill:#000000;fill-opacity:1;stroke-width:0.264583">+</tspan></text>
     <g
-       id="g24303"
-       transform="translate(-5.5082924,-15.50394)">
+       id="g1350">
       <g
          id="g4615-7-4"
-         transform="translate(-113.1097,12.026595)">
+         transform="translate(-118.61799,-3.477345)">
         <rect
            style="opacity:0.85;fill:#cc975d;fill-opacity:0;stroke:#000000;stroke-width:0.185087;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
            id="rect1195-2-1-5"
@@ -1064,30 +1063,31 @@
            y="21.571859" />
       </g>
       <g
-         id="g24290"
-         transform="translate(0.13326151,0.81958389)">
+         id="g1336">
         <text
            xml:space="preserve"
            style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-           x="48.629929"
-           y="37.248219"
+           x="40.063778"
+           y="22.563862"
            id="text1199-9-3-3"><tspan
              sodipodi:role="line"
-             x="48.629929"
-             y="37.248219"
+             x="40.063778"
+             y="22.563862"
              style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';stroke-width:0.264583"
              id="tspan4189-9-5">G<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan1325">2</tspan>.G<tspan
    style="font-size:65%;baseline-shift:sub"
    id="tspan5718-8-7">1</tspan></tspan></text>
         <text
            xml:space="preserve"
            style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-           x="43.318012"
-           y="43.877838"
+           x="37.942982"
+           y="29.193481"
            id="text1199-9-3-3-6"><tspan
              sodipodi:role="line"
-             x="43.318012"
-             y="43.877838"
+             x="37.942982"
+             y="29.193481"
              style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';stroke-width:0.264583"
              id="tspan4189-9-5-9">1-G<tspan
    style="font-size:65%;baseline-shift:sub"
@@ -1096,7 +1096,7 @@
    id="tspan5718-8-7-5">1</tspan></tspan></text>
         <path
            style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           d="M 39.406299,39.415399 H 62.660396"
+           d="M 34.031268,24.731043 H 57.285365"
            id="path24280"
            sodipodi:nodetypes="cc" />
       </g>

@@ -14,7 +14,7 @@
    id="svg8"
    inkscape:version="1.0.2 (394de47547, 2021-03-26)"
    sodipodi:docname="bloques7.svg"
-   inkscape:export-filename="/home/gonzalo/Pictures/bloques7.png"
+   inkscape:export-filename="/home/gonzalo/Documents/materias/libro_ceaten/ceaten-2021/ceaten_2021/doc/modulo1/diagrama_bloques/fig7.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96">
   <defs
@@ -808,10 +808,10 @@
      showgrid="false"
      inkscape:snap-grids="false"
      inkscape:snap-midpoints="false"
-     inkscape:window-width="1920"
-     inkscape:window-height="1051"
-     inkscape:window-x="1680"
-     inkscape:window-y="0"
+     inkscape:window-width="1680"
+     inkscape:window-height="1021"
+     inkscape:window-x="0"
+     inkscape:window-y="15"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata5">
@@ -821,7 +821,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -941,13 +941,13 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="25.599457"
-       y="31.335888"
+       x="19.320787"
+       y="34.212761"
        id="text1199-73-3"><tspan
          sodipodi:role="line"
          id="tspan1197-6-8"
-         x="25.599457"
-         y="31.335888"
+         x="19.320787"
+         y="34.212761"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';fill:#000000;fill-opacity:1;stroke-width:0.264583">-</tspan></text>
     <text
        xml:space="preserve"
@@ -1105,13 +1105,13 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="19.025396"
-       y="34.683285"
+       x="24.601133"
+       y="31.316175"
        id="text1199-73-3-5"><tspan
          sodipodi:role="line"
          id="tspan1197-6-8-4"
-         x="19.025396"
-         y="34.683285"
+         x="24.601133"
+         y="31.316175"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';fill:#000000;fill-opacity:1;stroke-width:0.264583">+</tspan></text>
     <text
        xml:space="preserve"
@@ -1134,6 +1134,17 @@
          id="tspan1197-6-8-4-7"
          x="129.95117"
          y="18.600563"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';fill:#000000;fill-opacity:1;stroke-width:0.264583">+</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="8.4318237"
+       y="29.297287"
+       id="text1199-73-3-5-3"><tspan
+         sodipodi:role="line"
+         id="tspan1197-6-8-4-6"
+         x="8.4318237"
+         y="29.297287"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';fill:#000000;fill-opacity:1;stroke-width:0.264583">+</tspan></text>
   </g>
 </svg>
