@@ -80,7 +80,11 @@ $$T(s)=\frac{Y(s)}{R(s)}=\frac{k D(s) G(s)}{1+k D(s) G(s)}$$
 
 donde,
 
-$$ G(s) = \frac{N_G(s)}{D_G(s)}=\frac{\prod_{i=1}^{m_G}(s+z_i)}{\prod_{j=1}^{n_G}(s+p_j)}$$ y $$ D(s) = \frac{N_D(s)}{D_D(s)}=\frac{\prod_{i=1}^{m_D}(s+z_i)}{\prod_{j=1}^{n_D}(s+p_j)}$$
+$$ G(s) = \frac{N_G(s)}{D_G(s)}=\frac{\prod_{i=1}^{m_G}(s+z_i)}{\prod_{j=1}^{n_G}(s+p_j)}$$
+
+y
+
+$$ D(s) = \frac{N_D(s)}{D_D(s)}=\frac{\prod_{i=1}^{m_D}(s+z_i)}{\prod_{j=1}^{n_D}(s+p_j)}$$
 
 Los polos y ceros de $G(s)$ son la solución de $N_G(s)=0$ y $D_G(s)=0$ respectivamente, y los polos y ceros de $D(s)$ son la solución de $N_D(s)=0$ y $D_D(s)=0$.
 

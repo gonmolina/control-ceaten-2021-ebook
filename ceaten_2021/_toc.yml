@@ -44,5 +44,3 @@
 - part: Diseño de compensadores
   chapters:
   - file: doc/modulo5/compensadores
-  - file: doc/modulo5/problema_levitador
-  - file: doc/modulo5/lead_lag_design

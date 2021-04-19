@@ -409,6 +409,7 @@ graficar_respuesta_escalon(sysT, T=np.linspace(0,8,500))
 ```
 
 Vimos anteriormente que la compensación de lead hace que el lugar se desplace hacia la izquierda. Aquí es necesario un compensador de este para aumentar el amortiguamiento y para el $\omega_n$ requerido. Se requerirá alguna prueba y error para llegar a la ubicación de un polo y cero adecuado. Valores de $z = 3$ y $p = 20$ en la ecuación tienen un efecto sustancial al mover las ramas rápidas del lugar hacia la izquierda; así resultaría:
+
 $$D(s) = \frac{s+3}{s+20}$$
 
 También se requiere alguna iteración mediante prueba y error para llegar a un valor de $K$ que cumpla con las especificaciones.

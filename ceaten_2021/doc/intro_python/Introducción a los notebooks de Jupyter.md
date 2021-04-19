@@ -18,12 +18,12 @@ kernelspec:
 Estaremos utilizando Python a través de una interfaz conveniente
 que son los [Jupyter Notebook](http://jupyter.org/).
 Si a este cuaderno lo está visualizando a través de una pagina web, puede
-descargarlo haciendo click en icono de descarga ubicado arriba a la izquierda
+descargarlo haciendo click en icono de descarga ubicado arriba a la derecha
 y seleccionando el formato `ipynb`. También se puede ejecutar a desde la web,
 usando *binder*, haciendo click donde se encuentra el cohete. Los archivos
 con la extensión `.ipynb` son cuadernos de jupyter o jupyter notebooks.
 
-+++ {"lang": "en"}
++++
 
 Existen varias alternativas para visualizar los cuadernos de Jupyter. Paso a
 describir las más utilizadas:
@@ -56,7 +56,7 @@ un mismo entorno. La principal desventaja es que suele ser algo complejo de conf
 Sin embargo cuenta con una gran documentación en la web. Se puede descarga
 [aquí](https://code.visualstudio.com/).
 
-+++ {"lang": "es"}
++++
 
 ## Un recorrido rápido
 
