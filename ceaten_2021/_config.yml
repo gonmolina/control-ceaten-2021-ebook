@@ -1,9 +1,9 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: Diseño Control
+title: Diseño de Sistemas de Control
 author: Dr. Ing. Gonzalo Molina; Ing. Juan Pablo Pierini
-logo: doc/images.jpg
+logo: doc/sala_de_control.png
 
 # Define the name of the latex output file for PDF builds
 latex:

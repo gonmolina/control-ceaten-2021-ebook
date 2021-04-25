@@ -1,10 +1,12 @@
 # Table of content
 # Learn more at https://jupyterbook.org/customize/toc.html
 #
-- file: intro
+- file: doc/intro
+# - file: guia_de_instalacion
 
 - part: Introducción a Python
   chapters:
+  - file: doc/guia_de_instalacion
   - file: doc/intro_python/Introducción a los notebooks de Jupyter
   - file: doc/intro_python/Extra_Python
   - file: doc/intro_python/Intro-Matplotlib

@@ -116,7 +116,7 @@ Señal de imagen
 
 +++
 
-### Impuso unitario
+### Impulso unitario
 
 Esta señal impulso $\rho(t)$ es de la siguiente forma:
 

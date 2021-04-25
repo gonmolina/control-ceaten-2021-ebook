@@ -1,34 +1,26 @@
-# Material de la material Elementos de Control
+# Guía de instalación de las herramientas computacionales
 
-En Página web encontraremos todo el material digital necesario para seguir el curso de Elementos de Control de CEATEN para la cursada 2021.
+## Verificación del tipo de sistema operativo (32 o 64 bits)
 
-En este material se desarrollan tanto los temas teóricos como ejemplos prácticos de diseño de control. Para resolver los problemas de la práctica haremos uso de herramientas cálculo computacional, mediante el lenguaje de programación Python.
-
-Estas herramientas las estaremos utilizando desde el primer día de clase, por lo que a continuación les dará una guía de instalación de las herramientas recomendadas para seguir el curso.
-
-## Guía de instalación de las herramientas computacionales
-
-### Verificación del tipo de sistema operativo (32 o 64 bits)
-
-#### En Windows 10 y Windows 8.1
+### En Windows 10 y Windows 8.1
 
 Selecciona el botón Inicio y después, ``Configuración > Sistema > Acerca de``. A la derecha, en Especificaciones del dispositivo, consulta Tipo de sistema.
 
-#### En Windows 7
+### En Windows 7
 
 Selecciona el botón Inicio, haz clic con el botón derecho en  
 ``Equipo`` y selecciona `Propiedades`. En `Sistema`, consulta el `tipo de sistema`.
 
-### Descargar Miniconda de acuerdo al tipo de sistema operativo
+## Descargar Miniconda de acuerdo al tipo de sistema operativo
 
 Seguir el enlace de [Miniconda](https://docs.conda.io/en/latest/miniconda.html) y elegir la versión de `Python 3.X` (donde X es un número entero) que este acorde al tipo de sistema operativo instalado es su máquina según lo averiguado en el punto anterior.
 
-### Instalar Miniconda
+## Instalar Miniconda
 
 Seguir las recomendaciones por defecto dadas por el instalador. Una vez terminada la instalación tendremos Python instalado en nuestro sistema. Además tendremos en el menú de inicio un ítem
 que se llama Anaconda Powershell Prompt, el cual abriremos para continuar con la instalación de las herramientas del curso.
 
-### Instalación de las herramientas especificas del curso
+## Instalación de las herramientas especificas del curso
 
 Para continuar con la instalación necesitaremos descargar el archivo [dyc.yml](https://drive.google.com/file/d/1agx9I7KoTB2Fw9MO6_tuzQqRSai2iBgV/view?usp=sharing) haciendo clock sobre el enlace anterior. Una vez descargado, dirigirse con la consola de Anaconda Powershell Prompt abierta a la carpeta de descargas donde se encuentra el archivo `dyc.yml` descargado anteriormente. En general, para dirigirse a esta carpeta debemos tipear
 
@@ -55,16 +47,16 @@ Una vez terminado este paso tendremos instaladas todas las herramientas necesari
 1. Spyder (dyc)
 1. Jupyter Notebooks (dyc)
 
-### Retoques a la herramientas para mayor comodidad de uso
+## Retoques a la herramientas para mayor comodidad de uso
 
-#### Jupyter Notebooks en Spyder
+### Jupyter Notebooks en Spyder
 
 Spyder nos proporciona un entorno de desarrollo muy parecido a  Matlab, donde tenemos paneles similares a los de Matlab:
 
 1. Panel de Comandos (command window)
 1. Explorador de variables, donde podemos ver las variables  definidas y sus valores
 1. Un editor de scripts para programar
-1. Un editor de cuadernos de Jupyter (que lo activamos antes)
+1. Un editor de cuadernos de Jupyter (a continuación veremos como activarlo)
 1. Una ventana de ayuda, que nos brinda rápidamente ayuda del comando que necesitemos usando las teclas `Ctrl+I`.
 1. Historial de comandos, etc.
 
@@ -72,7 +64,7 @@ Una configuración útil en `Spyder` es tener la herramienta de los `Jupyter Not
 
 La mayor parte del material de este curso está escrito en formato de de Jupyter Notebooks, y puede ser descargado abierto y modificado mediante usando Spyder y el plugin de Jupyter Notebooks.
 
-#### Enlace directo a JupyterLab
+### Enlace directo a JupyterLab
 
 Otro entorno que nos brinda casi las mismas posibilidades que Spyder es JupyterLab. La ventaja es que los cuadernos de Jupyter son mucho mejor soportados en este entorno y además es más liviano que Spyder.
 
