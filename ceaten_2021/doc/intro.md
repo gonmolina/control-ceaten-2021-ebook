@@ -1,4 +1,4 @@
-# Material de la material Elementos de Control
+# Material de la materia Elementos de Control
 
 En Página web encontraremos todo el material digital necesario para seguir el curso de Elementos de Control de CEATEN para la cursada 2021.
 
