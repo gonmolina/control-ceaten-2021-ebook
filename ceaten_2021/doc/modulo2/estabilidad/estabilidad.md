@@ -52,7 +52,7 @@ $$H(s) = \dfrac{N(s)}{D(s)}=K\dfrac{\prod_{l=1}^m (s-z_l)}{\prod_{l=1}^n (s-p_l)
 
 donde por simplicidad hemos supuesto que los polos son reales y simples. La respuesta a un escalón unitario $U(s) = \dfrac{1}{s}$ será:
 
-$$H(s) = \frac{K}{s}\dfrac{\prod_{l=1}^m (s-z_l)}{\prod_{l=1}^n (s-p_l)}$$
+$$Y(s) = \frac{K}{s}\dfrac{\prod_{l=1}^m (s-z_l)}{\prod_{l=1}^n (s-p_l)}$$
 
 Expandiendo por fracciones simples se obtiene:
 

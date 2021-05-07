@@ -88,15 +88,16 @@ $$H(s) = \frac{-1}{s+1} +\frac{3}{s+2}$$
 
 Utilizando la **tabla de transformadas de Laplace**, obtenemos la **respuesta natural** del sistema:
 
-$$
-h(t) =
-  \left\
-    {\begin{array}{rl}
-      -e^{-t}+3e^{-2t},&t\ge 0\\
++++
+
+
+$$h(t) = \left\{
+  \begin{array}{cc}
+      -e^{-t}+3e^{-2t},& t\ge 0\\
       0,  & t<0
     \end{array}
   \right.
-$$
+  $$
 
 Graficamos $h(t)$ obtenido a partir de aplicar la antitransformada de Laplace (usando tablas) de la respuesta impulsiva del sistema.
 
