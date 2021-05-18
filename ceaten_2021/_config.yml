@@ -15,12 +15,12 @@ bibtex_bibfiles:
   - references.bib
 
 launch_buttons:
-  notebook_interface        : classic  # The interface interactive links will activate ["classic", "jupyterlab"
+  notebook_interface        : jupyterlab  # The interface interactive links will activate ["classic", "jupyterlab"
   colab_url                 : "https://colab.research.google.com"
 
 # Information about where the book exists on the web
 repository:
-  url: https://gitlab.com/ceaten-2021/ceaten-2021 # Online location of your book
+  url: https://github.com/gonmolina/control-ceaten-2021-ebook # Online location of your book
   path_to_book: ceaten_2021  # Optional path to your book, relative to the repository root
   branch: master  # Which branch of the repository should be used when creating links (optional)
 
