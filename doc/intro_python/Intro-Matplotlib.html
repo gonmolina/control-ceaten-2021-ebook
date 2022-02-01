@@ -657,9 +657,6 @@
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<img alt="../../_images/Intro-Matplotlib_10_0.png" src="../../_images/Intro-Matplotlib_10_0.png" />
-</div>
 </div>
 <p>Lo bueno de la API de estilo MATLAB de Pylab es que es fácil comenzar si se está familiarizado con MATLAB, y tiene un mínimo de sobrecarga de codificación para diagramas simples.</p>
 <p>Sin embargo, recomendaría no usar la API compatible con MATLAB para nada más que las figuras más simples.</p>
@@ -681,9 +678,6 @@
 <span class="n">axes</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s1">&#39;title&#39;</span><span class="p">);</span>
 </pre></div>
 </div>
-</div>
-<div class="cell_output docutils container">
-<img alt="../../_images/Intro-Matplotlib_13_0.png" src="../../_images/Intro-Matplotlib_13_0.png" />
 </div>
 </div>
 <p>Aunque está involucrado un poco más de código, la ventaja es que ahora tenemos el control total de dónde se colocan los ejes de trazado, y podemos agregar fácilmente más de un eje a la figura:</p>
@@ -707,9 +701,6 @@
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<img alt="../../_images/Intro-Matplotlib_15_0.png" src="../../_images/Intro-Matplotlib_15_0.png" />
-</div>
 </div>
 <p>Si no nos importa ser explícitos acerca de dónde se ubican nuestros ejes de trazado en la figura, entonces podemos usar uno de los muchos administradores de diseño de ejes en matplotlib. Mi favorito es <code class="docutils literal notranslate"><span class="pre">subplots</span></code>, que se puede usar así:</p>
 <div class="cell docutils container">
@@ -723,9 +714,6 @@
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<img alt="../../_images/Intro-Matplotlib_17_0.png" src="../../_images/Intro-Matplotlib_17_0.png" />
-</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -738,9 +726,6 @@
     <span class="n">ax</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s1">&#39;title&#39;</span><span class="p">)</span>
 </pre></div>
 </div>
-</div>
-<div class="cell_output docutils container">
-<img alt="../../_images/Intro-Matplotlib_18_0.png" src="../../_images/Intro-Matplotlib_18_0.png" />
 </div>
 </div>
 <p>Eso fue fácil, pero no resulta del todo bonito ya que las etiquetas se superponen a los ejes.</p>
@@ -759,9 +744,6 @@
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<img alt="../../_images/Intro-Matplotlib_20_0.png" src="../../_images/Intro-Matplotlib_20_0.png" />
-</div>
 </div>
 <div class="section" id="tamano-de-la-figura-relacion-de-aspecto-y-dpi">
 <h3>Tamaño de la figura, relación de aspecto y DPI<a class="headerlink" href="#tamano-de-la-figura-relacion-de-aspecto-y-dpi" title="Enlazar permanentemente con este título">¶</a></h3>
@@ -769,11 +751,6 @@
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">fig</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span><span class="mi">4</span><span class="p">),</span> <span class="n">dpi</span><span class="o">=</span><span class="mi">100</span><span class="p">);</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;Figure size 800x400 with 0 Axes&gt;
 </pre></div>
 </div>
 </div>
@@ -789,9 +766,6 @@
 <span class="n">axes</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s1">&#39;title&#39;</span><span class="p">);</span>
 </pre></div>
 </div>
-</div>
-<div class="cell_output docutils container">
-<img alt="../../_images/Intro-Matplotlib_25_0.png" src="../../_images/Intro-Matplotlib_25_0.png" />
 </div>
 </div>
 </div>
@@ -894,9 +868,6 @@
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<img alt="../../_images/Intro-Matplotlib_43_0.png" src="../../_images/Intro-Matplotlib_43_0.png" />
-</div>
 </div>
 </div>
 </div>
@@ -917,9 +888,6 @@
 <span class="n">ax</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s1">&#39;title&#39;</span><span class="p">);</span>
 </pre></div>
 </div>
-</div>
-<div class="cell_output docutils container">
-<img alt="../../_images/Intro-Matplotlib_46_0.png" src="../../_images/Intro-Matplotlib_46_0.png" />
 </div>
 </div>
 <p>También podemos cambiar el tamaño de fuente global y la familia de fuentes, que se aplica a todos los elementos de texto en una figura (etiquetas y títulos de ejes, leyendas, etc.):</p>
@@ -944,9 +912,6 @@
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<img alt="../../_images/Intro-Matplotlib_49_0.png" src="../../_images/Intro-Matplotlib_49_0.png" />
-</div>
 </div>
 <p>Una buena elección de fuentes globales son las fuentes STIX:</p>
 <div class="cell docutils container">
@@ -969,9 +934,6 @@
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<img alt="../../_images/Intro-Matplotlib_52_0.png" src="../../_images/Intro-Matplotlib_52_0.png" />
-</div>
 </div>
 </div>
 <div class="section" id="configuracion-de-colores-tipos-de-linea-y-marcadores">
@@ -988,7 +950,7 @@
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&lt;matplotlib.lines.Line2D at 0x7f7d46d8b4f0&gt;]
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&lt;matplotlib.lines.Line2D at 0x7fb2dbea9070&gt;]
 </pre></div>
 </div>
 </div>
@@ -1003,9 +965,6 @@
 <span class="n">ax</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">x</span><span class="o">+</span><span class="mi">3</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s2">&quot;#15cc55&quot;</span><span class="p">);</span>        <span class="c1"># # código hexadecimal RGB para un color verdoso</span>
 </pre></div>
 </div>
-</div>
-<div class="cell_output docutils container">
-<img alt="../../_images/Intro-Matplotlib_58_0.png" src="../../_images/Intro-Matplotlib_58_0.png" />
 </div>
 </div>
 </div>
@@ -1045,9 +1004,6 @@
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<img alt="../../_images/Intro-Matplotlib_61_0.png" src="../../_images/Intro-Matplotlib_61_0.png" />
-</div>
 </div>
 </div>
 </div>
@@ -1075,9 +1031,6 @@
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<img alt="../../_images/Intro-Matplotlib_66_0.png" src="../../_images/Intro-Matplotlib_66_0.png" />
-</div>
 </div>
 </div>
 <div class="section" id="escala-logaritmica">
@@ -1095,9 +1048,6 @@
 <span class="n">axes</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s2">&quot;Logarithmic scale (y)&quot;</span><span class="p">);</span>
 </pre></div>
 </div>
-</div>
-<div class="cell_output docutils container">
-<img alt="../../_images/Intro-Matplotlib_69_0.png" src="../../_images/Intro-Matplotlib_69_0.png" />
 </div>
 </div>
 </div>
@@ -1120,9 +1070,6 @@
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<img alt="../../_images/Intro-Matplotlib_72_0.png" src="../../_images/Intro-Matplotlib_72_0.png" />
-</div>
 </div>
 <p>Hay una serie de métodos más avanzados para controlar la colocación de marcas mayores y menores en las cifras de matplotlib, como la ubicación automática de acuerdo con diferentes políticas. Consulte la <a class="reference external" href="http://matplotlib.org/api/ticker_api.html">documentación de matplotlib</a> para obtener más información.</p>
 <div class="section" id="notacion-cientifica">
@@ -1144,9 +1091,6 @@
 <span class="n">ax</span><span class="o">.</span><span class="n">yaxis</span><span class="o">.</span><span class="n">set_major_formatter</span><span class="p">(</span><span class="n">formatter</span><span class="p">)</span>
 </pre></div>
 </div>
-</div>
-<div class="cell_output docutils container">
-<img alt="../../_images/Intro-Matplotlib_76_0.png" src="../../_images/Intro-Matplotlib_76_0.png" />
 </div>
 </div>
 </div>
@@ -1174,9 +1118,6 @@
 <span class="n">ax</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s2">&quot;y&quot;</span><span class="p">);</span>
 </pre></div>
 </div>
-</div>
-<div class="cell_output docutils container">
-<img alt="../../_images/Intro-Matplotlib_78_0.png" src="../../_images/Intro-Matplotlib_78_0.png" />
 </div>
 </div>
 <div class="cell docutils container">
@@ -1206,9 +1147,6 @@
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<img alt="../../_images/Intro-Matplotlib_82_0.png" src="../../_images/Intro-Matplotlib_82_0.png" />
-</div>
 </div>
 </div>
 </div>
@@ -1230,7 +1168,10 @@
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="../../_images/Intro-Matplotlib_85_0.png" src="../../_images/Intro-Matplotlib_85_0.png" />
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;ipython-input-36-2d9dd61f53bd&gt;:1: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig, axes = plt.subplots(1, 2, figsize=(10,3))
+</pre></div>
+</div>
 </div>
 </div>
 </div>
@@ -1252,9 +1193,6 @@
 <span class="n">ax</span><span class="o">.</span><span class="n">yaxis</span><span class="o">.</span><span class="n">tick_left</span><span class="p">()</span> <span class="c1"># ponemos solos los tics de la izquierda</span>
 </pre></div>
 </div>
-</div>
-<div class="cell_output docutils container">
-<img alt="../../_images/Intro-Matplotlib_88_0.png" src="../../_images/Intro-Matplotlib_88_0.png" />
 </div>
 </div>
 </div>
@@ -1278,9 +1216,6 @@
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<img alt="../../_images/Intro-Matplotlib_91_0.png" src="../../_images/Intro-Matplotlib_91_0.png" />
-</div>
 </div>
 </div>
 <div class="section" id="ejes-donde-x-e-y-son-cero">
@@ -1302,9 +1237,6 @@
 <span class="n">ax</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">xx</span><span class="p">,</span> <span class="n">xx</span><span class="o">**</span><span class="mi">3</span><span class="p">);</span>
 </pre></div>
 </div>
-</div>
-<div class="cell_output docutils container">
-<img alt="../../_images/Intro-Matplotlib_93_0.png" src="../../_images/Intro-Matplotlib_93_0.png" />
 </div>
 </div>
 </div>
@@ -1336,9 +1268,6 @@
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<img alt="../../_images/Intro-Matplotlib_97_0.png" src="../../_images/Intro-Matplotlib_97_0.png" />
-</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -1349,9 +1278,6 @@
 <span class="n">ax</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">t</span><span class="p">,</span> <span class="n">t</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;blue&#39;</span><span class="p">,</span> <span class="n">lw</span><span class="o">=</span><span class="mi">3</span><span class="p">);</span>
 </pre></div>
 </div>
-</div>
-<div class="cell_output docutils container">
-<img alt="../../_images/Intro-Matplotlib_98_0.png" src="../../_images/Intro-Matplotlib_98_0.png" />
 </div>
 </div>
 <div class="cell docutils container">
@@ -1370,9 +1296,6 @@
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<img alt="../../_images/Intro-Matplotlib_99_0.png" src="../../_images/Intro-Matplotlib_99_0.png" />
-</div>
 </div>
 </div>
 <div class="section" id="anotacion-de-texto">
@@ -1389,9 +1312,6 @@
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<img alt="../../_images/Intro-Matplotlib_102_0.png" src="../../_images/Intro-Matplotlib_102_0.png" />
-</div>
 </div>
 </div>
 <div class="section" id="figuras-con-multiples-sub-figuras-e-inserciones">
@@ -1405,9 +1325,6 @@
 <span class="n">fig</span><span class="o">.</span><span class="n">tight_layout</span><span class="p">()</span>
 </pre></div>
 </div>
-</div>
-<div class="cell_output docutils container">
-<img alt="../../_images/Intro-Matplotlib_106_0.png" src="../../_images/Intro-Matplotlib_106_0.png" />
 </div>
 </div>
 </div>
@@ -1424,9 +1341,6 @@
 <span class="n">fig</span><span class="o">.</span><span class="n">tight_layout</span><span class="p">()</span>
 </pre></div>
 </div>
-</div>
-<div class="cell_output docutils container">
-<img alt="../../_images/Intro-Matplotlib_108_0.png" src="../../_images/Intro-Matplotlib_108_0.png" />
 </div>
 </div>
 </div>
@@ -1450,9 +1364,6 @@
 <span class="n">fig</span><span class="o">.</span><span class="n">tight_layout</span><span class="p">()</span>
 </pre></div>
 </div>
-</div>
-<div class="cell_output docutils container">
-<img alt="../../_images/Intro-Matplotlib_111_0.png" src="../../_images/Intro-Matplotlib_111_0.png" />
 </div>
 </div>
 </div>
@@ -1481,9 +1392,6 @@
 <span class="n">inset_ax</span><span class="o">.</span><span class="n">set_xticks</span><span class="p">([</span><span class="o">-</span><span class="mf">0.1</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mf">.1</span><span class="p">]);</span>
 </pre></div>
 </div>
-</div>
-<div class="cell_output docutils container">
-<img alt="../../_images/Intro-Matplotlib_114_0.png" src="../../_images/Intro-Matplotlib_114_0.png" />
 </div>
 </div>
 </div>
@@ -1523,9 +1431,6 @@
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<img alt="../../_images/Intro-Matplotlib_120_0.png" src="../../_images/Intro-Matplotlib_120_0.png" />
-</div>
 </div>
 </div>
 <div class="section" id="imshow">
@@ -1541,9 +1446,6 @@
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<img alt="../../_images/Intro-Matplotlib_122_0.png" src="../../_images/Intro-Matplotlib_122_0.png" />
-</div>
 </div>
 </div>
 <div class="section" id="contour">
@@ -1555,9 +1457,6 @@
 <span class="n">cnt</span> <span class="o">=</span> <span class="n">ax</span><span class="o">.</span><span class="n">contour</span><span class="p">(</span><span class="n">Z</span><span class="p">,</span> <span class="n">cmap</span><span class="o">=</span><span class="n">matplotlib</span><span class="o">.</span><span class="n">cm</span><span class="o">.</span><span class="n">RdBu</span><span class="p">,</span> <span class="n">vmin</span><span class="o">=</span><span class="nb">abs</span><span class="p">(</span><span class="n">Z</span><span class="p">)</span><span class="o">.</span><span class="n">min</span><span class="p">(),</span> <span class="n">vmax</span><span class="o">=</span><span class="nb">abs</span><span class="p">(</span><span class="n">Z</span><span class="p">)</span><span class="o">.</span><span class="n">max</span><span class="p">(),</span> <span class="n">extent</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">])</span>
 </pre></div>
 </div>
-</div>
-<div class="cell_output docutils container">
-<img alt="../../_images/Intro-Matplotlib_124_0.png" src="../../_images/Intro-Matplotlib_124_0.png" />
 </div>
 </div>
 </div>

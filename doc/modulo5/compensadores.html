@@ -660,9 +660,6 @@ En conclusión, la posición del polo y del cero del compensador es libre mientr
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<img alt="../../_images/compensadores_23_0.png" src="../../_images/compensadores_23_0.png" />
-</div>
 </div>
 </div>
 </div>
@@ -722,9 +719,6 @@ En conclusión, la posición del polo y del cero del compensador es libre mientr
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<img alt="../../_images/compensadores_30_0.png" src="../../_images/compensadores_30_0.png" />
-</div>
 </div>
 <p>Podemos ver que para lograr el tiempo de respuesta con las dos raíces rápidas deseadas como mínimo tenemos que darle una ganancia de 0.3. Sin embargo para esta ganancia el sobrevalor va a dar más grande ya que que coeficiente de amortiguamiento es de 0.19 que es menor 0.6 requerido.</p>
 <p>Estos polos lentos tendrán algún efecto en las respuesta y causarán un establecimiento más largo. Sin embargo, la característica dominante de la respuesta que determina si la compensación cumple o no con las especificaciones es el comportamiento en los primeros segundos, dictado por las raíces rápidas. El bajo amortiguamiento debido a las raíces rápidas hace que la respuesta temporal sea oscilatoria, lo que conduce a un sobrevalor excesivo y a un tiempo de asentamiento más prolongado de lo deseado. Esto lo podemos ver en la siguiente simulación:</p>
@@ -757,9 +751,6 @@ En conclusión, la posición del polo y del cero del compensador es libre mientr
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<img alt="../../_images/compensadores_37_0.png" src="../../_images/compensadores_37_0.png" />
-</div>
 </div>
 <p>Vimos anteriormente que la compensación de lead hace que el lugar se desplace hacia la izquierda. Aquí es necesario un compensador de este para aumentar el amortiguamiento y para el <span class="math notranslate nohighlight">\(\omega_n\)</span> requerido. Se requerirá alguna prueba y error para llegar a la ubicación de un polo y cero adecuado. Valores de <span class="math notranslate nohighlight">\(z = 3\)</span> y <span class="math notranslate nohighlight">\(p = 20\)</span> en la ecuación tienen un efecto sustancial al mover las ramas rápidas del lugar hacia la izquierda; así resultaría:</p>
 <div class="math notranslate nohighlight">
@@ -774,9 +765,6 @@ En conclusión, la posición del polo y del cero del compensador es libre mientr
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<img alt="../../_images/compensadores_39_0.png" src="../../_images/compensadores_39_0.png" />
-</div>
 </div>
 <p>Entonces probamos con esta ganancia de <span class="math notranslate nohighlight">\(K=1.5\)</span></p>
 <div class="cell docutils container">
@@ -787,9 +775,6 @@ En conclusión, la posición del polo y del cero del compensador es libre mientr
 <span class="n">graficar_respuesta_escalon</span><span class="p">(</span><span class="n">sysT</span><span class="p">,</span> <span class="n">T</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span> <span class="mi">600</span><span class="p">))</span>
 </pre></div>
 </div>
-</div>
-<div class="cell_output docutils container">
-<img alt="../../_images/compensadores_41_0.png" src="../../_images/compensadores_41_0.png" />
 </div>
 </div>
 <p>Hay que tener en cuenta que el amortiguamiento debido a las raíces rápidas que corresponde a <span class="math notranslate nohighlight">\(K = 1.5\)</span> es <span class="math notranslate nohighlight">\(\zeta = 0.52\)</span>, que es ligeramente menor de lo que nos gustaría; Además, la frecuencia natural es <span class="math notranslate nohighlight">\(\omega_n= 15\)</span> rad/seg, mucho más rápido de lo que necesitamos. Sin embargo, estos valores son lo suficientemente cercanos como para cumplir con las pautas para sugerir un vistazo a la respuesta temporal. De hecho, la respuesta temporal que <span class="math notranslate nohighlight">\(t_r \approx 1.1\)</span> seg y <span class="math notranslate nohighlight">\(M_p \approx 8\%\)</span>, que están muy cerca de cumplir especificaciones.</p>
@@ -863,9 +848,6 @@ en las formas en que el lugar geométrico se pueda graficar. Por lo tanto, podem
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<img alt="../../_images/compensadores_48_0.png" src="../../_images/compensadores_48_0.png" />
-</div>
 </div>
 <p>La segunda figura es la ampliación de lo que está sucediendo con los polos lentos. Podemos ver que están todos muy cerca de ceros por lo que la influencia neta que tendrán en la respuesta será muy pequeña.</p>
 <p>Implementamos un escalón entonces para la perturbación y vemos como se comporta el lazo cerrado.</p>
@@ -891,9 +873,6 @@ en las formas en que el lugar geométrico se pueda graficar. Por lo tanto, podem
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<img alt="../../_images/compensadores_54_0.png" src="../../_images/compensadores_54_0.png" />
-</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -901,9 +880,6 @@ en las formas en que el lugar geométrico se pueda graficar. Por lo tanto, podem
 <span class="n">graficar_respuesta_escalon</span><span class="p">(</span><span class="n">T</span><span class="p">)</span>
 </pre></div>
 </div>
-</div>
-<div class="cell_output docutils container">
-<img alt="../../_images/compensadores_55_0.png" src="../../_images/compensadores_55_0.png" />
 </div>
 </div>
 <div class="cell docutils container">
@@ -933,9 +909,6 @@ en las formas en que el lugar geométrico se pueda graficar. Por lo tanto, podem
 <span class="n">graficar_respuesta_escalon</span><span class="p">(</span><span class="n">T_re</span><span class="p">,</span> <span class="n">T</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">30</span><span class="p">,</span><span class="mi">1000</span><span class="p">))</span>
 </pre></div>
 </div>
-</div>
-<div class="cell_output docutils container">
-<img alt="../../_images/compensadores_58_0.png" src="../../_images/compensadores_58_0.png" />
 </div>
 </div>
 </div>

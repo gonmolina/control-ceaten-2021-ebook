@@ -625,9 +625,6 @@ y(t)&amp;=x(t)
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<img alt="../../../_images/funcion_transferencia_23_0.png" src="../../../_images/funcion_transferencia_23_0.png" />
-</div>
 </div>
 <p>Vemos que esto no se ve del todo razonable. Esas lineas cortadas no se lucen muy armónicas. Vamos a agregar más puntos a la simulación.</p>
 <div class="cell docutils container">
@@ -658,9 +655,6 @@ y(t)&amp;=x(t)
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<img alt="../../../_images/funcion_transferencia_26_0.png" src="../../../_images/funcion_transferencia_26_0.png" />
-</div>
 </div>
 <p>En estas figuras podemos ver como la simulación que devuelve solo 100 puntos no nos muestra de forma correcta la evolución del sistema. Sin embargo, los puntos donde está calculado los valores de la respuesta al escalón si son correctos.</p>
 <p>Con 1001 puntos ya podemos ver una evolución mucho más prolija. Sin embargo, para no ver las puntas triangulares que vemos en la figura, debemos agregar algunos puntos más a la simulación.</p>
@@ -689,9 +683,6 @@ y(t)&amp;=x(t)
 <span class="n">fig</span><span class="o">.</span><span class="n">tight_layout</span><span class="p">()</span>
 </pre></div>
 </div>
-</div>
-<div class="cell_output docutils container">
-<img alt="../../../_images/funcion_transferencia_29_0.png" src="../../../_images/funcion_transferencia_29_0.png" />
 </div>
 </div>
 <p>En los primeros segundos vemos una dinámica que produce rápidas oscilaciones, y se va que muy lentamente el sistema empieza a disminuir esas oscilaciones. En la figura de la izquierda vemos que esta oscilaciones tienden a 0, en un tiempo suficientemente grande. Estos sistemas que tienen dinámicas tan diferentes, por un lado la «lentas» como la que produce la extinción de las oscilaciones en un tiempo grande, y por otro lado las rápidas que se manifiestan en las oscilaciones se los conoce como <code class="docutils literal notranslate"><span class="pre">sistemas</span> <span class="pre">rígidos</span></code> o <code class="docutils literal notranslate"><span class="pre">sistemas</span> <span class="pre">stiff</span></code>.</p>

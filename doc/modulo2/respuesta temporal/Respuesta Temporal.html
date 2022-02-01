@@ -517,9 +517,6 @@ Polos de la función H(s): 0.5
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<img alt="../../../_images/Respuesta Temporal_9_0.png" src="../../../_images/Respuesta Temporal_9_0.png" />
-</div>
 </div>
 </div>
 <div class="section" id="ejemplo-respuesta-impulsiva-de-un-sistema-lti">
@@ -562,9 +559,6 @@ Polos de la función H(s): 0.5
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<img alt="../../../_images/Respuesta Temporal_13_0.png" src="../../../_images/Respuesta Temporal_13_0.png" />
-</div>
 </div>
 <p>Por lo dicho antes, como la función transferencia de un sistema es la transformada de Laplace de la respuesta al impulso, y la transformada del impulso es 1, podemos graficar esta función temporal, graficando la respuesta al impulso con el comando <code class="docutils literal notranslate"><span class="pre">impulse_response</span></code>:</p>
 <div class="cell docutils container">
@@ -584,9 +578,6 @@ Polos de la función H(s): 0.5
 <span class="n">ax</span><span class="o">.</span><span class="n">grid</span><span class="p">()</span>
 </pre></div>
 </div>
-</div>
-<div class="cell_output docutils container">
-<img alt="../../../_images/Respuesta Temporal_16_0.png" src="../../../_images/Respuesta Temporal_16_0.png" />
 </div>
 </div>
 <p>Veremos otra forma de definir una Función de Transferencia a partir de la definición de la «función de transferencia elemental, s», luego es posible hacer operaciones algebraicas (sumas, restas, divisiones y productos) con esta función para definir la función de transferencia de un sistema dinámico cualquiera.</p>
@@ -615,9 +606,6 @@ Polos de la función H(s): 0.5
 <span class="n">ax</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s2">&quot;Amplitud&quot;</span><span class="p">);</span>
 </pre></div>
 </div>
-</div>
-<div class="cell_output docutils container">
-<img alt="../../../_images/Respuesta Temporal_19_0.png" src="../../../_images/Respuesta Temporal_19_0.png" />
 </div>
 </div>
 </div>
@@ -658,9 +646,6 @@ y(\infty)=\lim_{s\rightarrow 0}sY(s)=\lim_{s\rightarrow 0} s\frac{2s+1}{s(s^2+3s
 <span class="n">ax</span><span class="o">.</span><span class="n">grid</span><span class="p">()</span>
 </pre></div>
 </div>
-</div>
-<div class="cell_output docutils container">
-<img alt="../../../_images/Respuesta Temporal_22_0.png" src="../../../_images/Respuesta Temporal_22_0.png" />
 </div>
 </div>
 </div>
@@ -716,9 +701,6 @@ y(\infty)=\lim_{s\rightarrow 0}sY(s)=\lim_{s\rightarrow 0} s\frac{2s+1}{s(s^2+3s
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<img alt="../../../_images/Respuesta Temporal_25_0.png" src="../../../_images/Respuesta Temporal_25_0.png" />
-</div>
 </div>
 <p>Vemos primero, que como los sistemas tienen el mismo valor de <span class="math notranslate nohighlight">\(K\)</span> entonces el valor final es el mismo para los tres sistemas.</p>
 <p>Vemos que el sistema que tiene el <span class="math notranslate nohighlight">\(\tau\)</span> más chico, o lo que es lo mismo el polo <span class="math notranslate nohighlight">\(\dfrac{1}{\tau}\)</span> más grande es el sistema más rápido.</p>
@@ -741,9 +723,6 @@ y(\infty)=\lim_{s\rightarrow 0}sY(s)=\lim_{s\rightarrow 0} s\frac{2s+1}{s(s^2+3s
 <span class="n">ax</span><span class="o">.</span><span class="n">set_ylim</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span><span class="mf">1.1</span><span class="p">]);</span>
 </pre></div>
 </div>
-</div>
-<div class="cell_output docutils container">
-<img alt="../../../_images/Respuesta Temporal_27_0.png" src="../../../_images/Respuesta Temporal_27_0.png" />
 </div>
 </div>
 <p>Podemos ver que los tres sistemas cortan a la linea gris inferior que está en <span class="math notranslate nohighlight">\(\approx 0.63\)</span> en el valor de <span class="math notranslate nohighlight">\(\tau\)</span>. Por lo que podemos concluir que un sistema de primer orden llega al 63% de su valor final en <span class="math notranslate nohighlight">\(\tau\)</span> segundos.</p>
@@ -782,9 +761,6 @@ y(\infty)=\lim_{s\rightarrow 0}sY(s)=\lim_{s\rightarrow 0} s\frac{2s+1}{s(s^2+3s
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<img alt="../../../_images/Respuesta Temporal_31_0.png" src="../../../_images/Respuesta Temporal_31_0.png" />
-</div>
 </div>
 <p>Si se tiene un sistema de orden <span class="math notranslate nohighlight">\(n\)</span> con todas raíces reales se puede descomponer por fracciones simples y analizar las repuesta de los <span class="math notranslate nohighlight">\(n\)</span> polos por separados, y de estar forma analizar como se comporta el sistema.</p>
 <p>Por lo tanto nos quedaría analizar que pasa cunado los polos del sistema son complejos conjugados</p>
@@ -821,9 +797,6 @@ y(\infty)=\lim_{s\rightarrow 0}sY(s)=\lim_{s\rightarrow 0} s\frac{2s+1}{s(s^2+3s
 <span class="n">plt</span><span class="o">.</span><span class="n">grid</span><span class="p">()</span>
 </pre></div>
 </div>
-</div>
-<div class="cell_output docutils container">
-<img alt="../../../_images/Respuesta Temporal_37_0.png" src="../../../_images/Respuesta Temporal_37_0.png" />
 </div>
 </div>
 <p>Como vemos, la respuesta al impulso a un par de polos complejos conjugados es una sinusoide amortiguada por una exponencial. Tanto la exponencial, como la frecuencia de la sinusoide depende solo de los polos.</p>
@@ -1027,9 +1000,6 @@ y(\infty)=\lim_{s\rightarrow 0}sY(s)=\lim_{s\rightarrow 0} s\frac{2s+1}{s(s^2+3s
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<img alt="../../../_images/Respuesta Temporal_42_0.png" src="../../../_images/Respuesta Temporal_42_0.png" />
-</div>
 </div>
 <p>Los polos complejos conjugados los podemos definir en términos de sus partes real e imaginaria, tradicionalmente:</p>
 <div class="math notranslate nohighlight">
@@ -1078,9 +1048,6 @@ y(\infty)=\lim_{s\rightarrow 0}sY(s)=\lim_{s\rightarrow 0} s\frac{2s+1}{s(s^2+3s
 <span class="n">ax</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39; Respuesta de un sistema de segundo orden para distintos valores de $\zeta$&#39;</span><span class="p">);</span>
 </pre></div>
 </div>
-</div>
-<div class="cell_output docutils container">
-<img alt="../../../_images/Respuesta Temporal_48_0.png" src="../../../_images/Respuesta Temporal_48_0.png" />
 </div>
 </div>
 </div>
